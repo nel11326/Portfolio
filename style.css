@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+h1,h3,h4,h5,a {
+	font-family: Ibarra Real Nova, sans-serif;
+	
+}
+p,i {
+	font-family: Roboto Mono, sans-serif;
+}
+
+.button {
+	border-radius: 20px;
+}
+
+/*navbar*/
+	#navbar {
+		background: #827f82;
+		font-family: Ibarra Real Nova, sans-serif;
+		height: 8%;
+		font-size: 1.3rem;
+		margin-right: -15px;
+	}
+	.navbar-toggler {
+		color: white;
+	}	
+/*End of Navbar*/
+
+/*Aboutme*/
+
+	#landing {
+		font-family: Ibarra Real Nova,sans-serif;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url(https://media.istockphoto.com/vectors/abstract-white-wave-background-vector-id1224767102?b=1&k=20&m=1224767102&s=170667a&w=0&h=ku1_zyQDj0W6QMmYj5OmnRRIE02xpCER_k7sm3kBSe0=);
+	}
+
+	.jumbotron {
+		background-image: url(./images/my-pic-3.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: rgba(0, 0, 0, 0.9);
+		color: white;
+	}
+
+	#name {
+		margin-top: 17rem;
+	}
+
+	#nel-pic {
+		height: 20rem;
+		width: 20rem;
+	}
+
+
+	.p1 {
+		text-indent: 2rem;
+	}
+
+
+	#mymodal {
+		color: black;
+	}
+
+	
+/*End of About Me*/
+
+/*Resume*/
+	/*side bar*/
+	#resu-side {
+		position: absolute;
+		width: 25%;
+		height: 100%;
+		font-size: 11px;
+		
+	}
+
+	.fa-icon {
+		color: green;
+		font-size: 1rem;
+
+	}
+	.pin {
+		margin-left: 3rem;
+	}
+
+	/* resume content*/
+	#resu-content {
+		margin-left: 25%;
+		height: 100%;
+
+	}
+
+	#resu-name {
+		margin-top: 2rem;
+		font-size: 5rem;
+		padding: 1rem;
+	}
+	.we {
+		font-size: 3rem;
+		margin-left: 3rem;
+		font-family: Ibarra Real Nova,sans-serif;
+	}
+
+
+/*End of Resume*/
+
+/*Gallery*/
+	#tgal {
+		margin-top: 5rem;
+	}
+
+	#gallery {
+		width: 100%;
+	}
+
+
+/*End of Gallery*/
+
+/*Projects*/
+
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+		transition: 0.3s;
+		width: 30%;
+		border-radius: 5px;
+		
+	}
+
+	.card:hover {
+		box-shadow: 0 8px 16px 0 rgba(160, 7, 242, 1.0);
+	}
+
+	.pcard {
+		border-radius: 5px 5px 0 0;
+	}
+
+	.pcon {
+		padding: 2px 16px;
+	}
+/*End of Projects*/
+
+/*Contacts*/
+	#contact {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	}
+
+	#contact:hover {
+		box-shadow: 0 8px 16px 0 rgba(160, 7, 242, 1.0);
+	}
+/*End of Contacts*/
+
+/*Footer*/
+	#footer{
+		background: #827f82;
+		font-family: Ibarra Real Nova, sans-serif;
+	}
+	#logo {
+		height: 1.5rem;
+		width: 1.5rem;
+	}
+	#copyright {
+		font-size: 0.9rem;
+	}
+	footer span {
+		margin-left: 0.5rem;
+    	margin-right: 0.5rem;
+	}
+
+/*End of Footer*/

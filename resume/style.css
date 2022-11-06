@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.f1 {
+	font-family: Ibarra Real Nova, sans-serif;
+	font-weight: bold;
+}
+
+.f2 {
+	font-family: Roboto Mono, sans-serif;
+}
+
+
+#side {
+	position: absolute;
+	width: 16%;
+	height: 100%;
+}
+
+#content {
+	margin-left: 17%;
+}
+
+.card {
+	width: 18rem;
+	margin-left: 0.5rem;
+}
+
+.p1 {
+	text-indent: 2rem;
+	text-align: justify;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google Fonts -->
+	<link 	rel="preconnect" 
+			href="https://fonts.googleapis.com">
+	<link 	rel="preconnect" 
+			href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+	<link 	rel="stylesheet" 
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+			integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+			crossorigin="anonymous">
+
+<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/b63eb65403.js" crossorigin="anonymous"></script>
+
+	<title>My Portfolio</title>
+</head>
+<body>
+
+<!-- Navbar -->
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top align-items-center " id="navbar">
+		<a href="#landing"><img class="img-fluid" id="logo" src="./images/logo.png" alt="logo"></a>
+		<a class="navbar-brand">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</a>
+		<div class="collapse navbar-collapse" id="navbarmenu">
+			<ul class="navbar-nav">	
+				<li class="nav-item">
+					<a class="text-white mx-2 text-decoration-none" href="#aboutme1">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="text-white mx-2 text-decoration-none" target="_blank" href="./resume/resume.html">Resume</a>
+				</li>
+				<li class="nav-item">
+					<a class="text-white mx-2 text-decoration-none" href="./Gallery/gallery.html">Gallery Section</a>
+				</li>
+				<li class="nav-item">
+					<a class="text-white mx-2 text-decoration-none" href="#project">Projects</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+<!-- End of Navbar -->
+
+<!-- About Me -->
+		<div id="landing">
+			<div class="container-fluid jumbotron">
+				<div class="row mx-auto my-5 p-2 ">
+					<div class="col-12 col-md-6 text-center">
+						<h1 class="" id="g1">Dedication</h1>
+						<h1 id="g2">Peaceful</h1>
+						<h1 id="g3">Adventurous</h1>
+					</div>
+					<div class="col-12 col-md-6 text-center">
+						<h2 id="name">Ronel F. Tayawa</h2>
+						<p>
+							Bontoc, Mountain Province
+						</p>
+						<h3 class="mt-3">Frontend Developer</h3>
+						<button class="btn btn-secondary my-4 mx-auto button" target="#resu" type="button">
+							<a id="resu" class="text-white text-decoration-none" target="_blank" href="./resume/resume.html">Resume</a>
+						</button>
+						<button class="btn btn-secondary my-4 mx-auto button" target="#git" type="button">
+							<a id="git" class="text-white text-decoration-none" target="_blank" href="https://gitlab.com/nel03">Git Collection</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		
+			<div class="container" id="aboutme1">
+				<div class="row mx-4 text-center mt-5">
+					<div class="col-12 col-md-5 mx-auto ">
+						<img class="img-fluid rounded-circle" id="nel-pic" src="./images/nel-pic1.JPG" alt="my photo">
+					</div>
+					<div class="col-12 col-md-7">
+						<p class="text-justify  mx-auto p1">
+							Thank you for reviewing my web portfolio that I have created using HTML, CSS and Bootstrap. This is my 1st capstone project at Zuitt Bootcamp.
+						</p>
+						<p class="text-justify mt-2 mx-auto p1">
+							Over the past 4 years I provide audit to Churches and Organization that needs help. Provide trainnings shuch as Bookkeeping for non-accountants to ECARE Staff, Layminsters of the Church and Organization. 
+						</p>
+						<button class="btn btn-primary my-4 mx-auto button" data-toggle="modal" data-target="#mymodal" type="button">
+							More..
+						</button>
+					
+				<!-- Modal -->
+						<div class="modal fade" id="mymodal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+				<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title">Full Stack Developer</h4>
+										<button type="button" class="close" data-dismiss="modal">x</button>
+									</div>
+				<!-- Modal Body -->
+									<div class="modal-body">
+										Achievement Coming Soon...
+									</div>
+				<!-- Modal Footer -->
+									<div class="modal-footer">
+										<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+				<!-- End of Modal -->
+					</div>
+				</div>
+			</div>
+		<!-- Quotes in life -->
+			<div class="container">
+				<div class="col-12 col-md-12 order-2 order-md-1">
+					<p class="text-justify">
+						“...be happy about your growth, in which of course you can't take anyone with you, and be gentle with those who stay behind; be confident and calm in front of them and don't torment them with your doubts and don't frighten them with your faith or joy, which they wouldn't be able to comprehend. Seek out some simple and true feeling of what you have in common with them, which doesn't necessarily have to alter when you yourself change again and again.”
+					</p>
+					<p class="text-right font-italic">By: Anonymous</p>
+				</div>
+			</div>
+		</div>
+		<!-- End of Quotes -->
+<!-- End of About Me -->
+
+<!-- Projects -->
+	<hr>
+	<h1 class="text-center mt-3" id=project>Projects</h1>
+	<hr>
+	<!-- using card -->
+	<div class="container-fluid">
+		<div class="row mx-auto ml-2 mr-2 mx-3 justify-content-center">
+	<!-- Bookkeeping -->
+			<div class="card col-12 col-md-3 mx-3">
+				<div class=" text-center mt-2"><h5>Bookkeeping</h5></div>
+				
+				<img class="pcard" src="./images/Bookkeeping-1.jpg" alt="book">
+
+				<div class="card-body pcon">
+					
+					<p class="card-text text-justify mt-4">Bookkeeping for Non-Accountants to Project officers of ECARE, Organization and Lay minister of the church</a>
+					</p>
+				</div>
+				<div class="pfooter border-top text-center mb-1"><a target="_blank" href="./projects/bookkeeping.html">See Photos</a>
+			    </div>
+			</div>
+	<!-- End of Bookkeeping -->
+
+	<!-- Ecare Management System -->
+			<div class="card col-12 col-md-3 mx-3">
+				<div class=" text-center mt-2"><h5>Ecare Management System</h5></div>
+				<img class="pcard mt-3" src="http://episcopal-care.org/wp-content/uploads/2017/09/E-CARE-LOGO12-294x300.png" alt="ecare">
+				<div class="card-body pcon">
+				<p>I created it after finishing the FCB at Zuitt, will be a working in progress as i learn new knowledge about coding
+				</p>
+				</div>
+				<div class="pfooter border-top text-center mb-1"><a target="_blank" href="./projects/Ecare.html">See Output</a>
+			    </div>
+			</div>
+	<!-- End of Ecare system -->
+
+	<!-- ECPI Website -->
+			<div class="card col-12 col-md-3 mx-3">
+				<div class=" text-center mt-2"><h5>Episcopal Website</h5></div>
+				<img class="pcard mt-1" src="https://jliflc.com/wp-content/uploads/2020/11/ecp-logo.png" alt="ecpi">
+				<div class="container pcon">
+					
+					<p class="mt-5">It was created before using wordpress
+					</p>
+				</div>
+				<div class=" card-footer pfooter border-top text-center" ><a target="_blank" href="./projects/ecpi.html">See Output</a>
+			    </div>
+	<!-- End of Ecare Website -->
+			</div>
+		</div>
+	</div>
+	<hr>
+	<!-- To follow projects hehehehe -->
+	<div class="row justify-content-center">
+		<div class="card col-12 col-md-3 mx-3">
+				<div class=" text-center mt-2"><h5>Capstone Project I</h5></div>
+				<img class="pcard mt-3" src="https://www.freestudy.com/wp-content/uploads/2019/08/Best-Free-Online-Information-Technology-Courses-1280x720.jpg" alt="capstone1">
+				<div class="card-body pcon">
+				<p>Created my 1st Capstone Project at Zuitt bootcamp and that is my Personal WebPortfolio
+				</p>
+				</div>
+				<!-- <div class="pfooter border-top text-center mb-1"><a target="_blank" href="./projects/Ecare.html">See Output</a>
+			    </div> -->
+		</div>
+
+
+		<div class="card col-12 col-md-3 mx-3">
+			<div class="card-body pcon text-center">
+					<h3 class="font-weight-bold mt-3 mb-3">Other Projects</h3>
+			</div>
+			<img class="pcard rounded-circle" src="https://media.istockphoto.com/photos/coming-soon-picture-id1081589832?b=1&k=20&m=1081589832&s=170667a&w=0&h=gIkSaIw6tPuCYkr83-xOE1q776moP8wzjIN9b3wsoEc=" alt="comming soon">		
+		</div>
+	</div>
+	<hr>
+	
+<!-- End of Projects -->
+
+<!-- Contact -->
+
+	<div class="container mt-2 mb-3">
+		<div class="row align-items-center">
+			<div class="col-12 col-md-6 border rounded" id="contact">
+				<h3 class="text-center mt-2">Lets Get in touch</h3>
+				<div class="p-2">
+					<h5><a target="_blank" href="https://goo.gl/maps/TSPyCnz9GySyyxmd7"><i class="fa fa-location-dot"></i>Address</a></h5>
+					<p class="w-50">Bethany Homes, ECP Mission center, 275 E. Rodriguez Sr. Ave. Brgy. Kalusugan Quezon City, Philippines</p>
+				</div>
+				<div class="p-2">
+					<h5><i class="fa fa-phone-square"></i>Phone</h5>
+					<p>+639173092327</p>
+				</div>
+				<div class="p-2">
+					<h5><i class="fa fa-envelope-o"></i>Email</h5>
+					<p>lenor11326@hotmail.com</p>
+					<p>lenor11326@gmail.com</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-6">
+				<form class="border border-dark rounded bg-secondary text-white align-items-center" id="form">
+					<div class="form-row mt-3 mx-2">
+						<div class="form-group col-12">
+							<label for="text-username">Full Name</label>
+							<input class="form-control" id="text-username" type="text" name="fname" placeholder="Full Name" required>	
+						</div>
+					</div>
+					<div class="form-row mx-2">
+						<div class="form-group col-md-6">
+							<label for="text-contactnumber">Contact Number</label>
+							<input class="form-control" id="text-contactnumber" type="text" name="lname" placeholder="Contact Number" required>	
+						</div>
+						<div class="form-group col-md-6">
+							<label for="text-email">Email Address:</label>
+							<input class="form-control" id="text-email" type="text" name="email" placeholder="sample@sample.com" required/>
+						</div>
+					</div>	
+					<div class="form-group mx-2">
+						<label for="text-message">Messages</label>
+						<textarea class="form-control" id="txtmessage" name="txtmessage" cols="10" rows="5" placeholder="Type your Message.."></textarea>
+					</div>
+					<button class=" btn btn-success mx-3 mb-3 button"  type="Send">Send</button>
+				</form>	
+			</div>
+		</div>
+	</div>
+
+<!-- End of Contact -->
+	
+<!-- Footer -->
+	<footer class="p-1" id="footer">
+		<div class="text-center text-white">
+			Find me on social media
+		</div>
+		<div class="d-flex justify-content-center">
+			<a class="text-white mx-2" target="_blank" href="https://www.facebook.com/">
+				<i class="fa-brands fa-facebook fa-icons"></i>
+			</a>
+			<a class="text-white mx-2" target="_blank"href="https://www.instagram.com/">
+				<i class="fa-brands fa-instagram-square fa-icons"></i>
+			</a>
+			<a class="text-white mx-2" target="_blank" href="https://web.telegram.org/">
+				<i class="fa-brands fa-telegram fa-icons"></i>
+			</a>
+			<a class="text-white mx-2" target="_blank" href="https://www.linkedin.com/">
+				<i class="fa-brands fa-linkedin fa-icons"></i>
+			</a>
+		</div>
+		
+		<div class="text-center text-white ">
+			<span>Terms of Service</span>
+            <span>|</span>
+            <span>Privacy Policy</span>
+            <span>|</span>&copy;
+			<i class="fa fa-registered" id="copyright">FT</i>
+		</div>
+	</footer>
+<!-- End of Footer -->
+
+<!-- JS Dependencies -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
